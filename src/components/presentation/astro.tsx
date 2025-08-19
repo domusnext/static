@@ -12,21 +12,21 @@ export function AstroSection() {
         >
           <CardBody className="md:py-20 md:px-14 md:w-7/12">
             <Typography color="white" className="font-bold">
-              Frontend web architecture
+              Smart Home Technology
             </Typography>
             <Typography
               variant="h2"
               color="white"
               className="mb-5 font-normal"
             >
-              What is Astro?
+              What is Domus?
             </Typography>
             <Typography variant="lead" color="white">
-              Astro is an all-in-one web framework for building fast, content-focused websites. The framework is based in Astro Islands architecture, which represents a leading paradigm shift for frontend web architecture.
+              Domus is an all-in-one smart home management platform powered by advanced AI. The system learns your family's patterns and preferences, creating a personalized experience that adapts to your lifestyle and simplifies daily home management.
             </Typography>
-            <a href="https://github.com/creativetimofficial/astro-launch-ui">
+            <a href="#contact">
               <Button color="white" size="sm" variant="outlined" className="flex items-center mt-12">
-                Get Started
+                Learn More
               </Button>
             </a>
           </CardBody>

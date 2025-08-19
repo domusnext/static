@@ -22,14 +22,14 @@ export function HeroPresentation() {
                 variant="small"
                 className="mr-3 py-0.5 px-3 font-bold text-dark uppercase border-r border-dark"
               >
-                New
+                AI Powered
               </Typography>
               <Typography
                 color="dark"
                 variant="small"
                 className="flex items-center font-bold uppercase"
               >
-                Astro Starter Template
+                Smart Home Management
               </Typography>
             </div>
             <Typography
@@ -37,10 +37,10 @@ export function HeroPresentation() {
               color="blue-gray"
               className="mb-8 lg:mr-32 leading-tight font-black"
             >
-              The perfect foundation for your <span className="text-blue">Astro Project</span>
+              Welcome to <span className="text-blue">Domus</span> - Your AI Home Manager
             </Typography>
             <Typography variant="lead" color="blue-gray" className="lg:pr-32">
-              AstroLaunch UI is a free template designed to be both lightweight and feature-rich. It comes packed with everything you need to get your Online Store ready in no time.
+              Transform your home with Domus, the intelligent smart screen that manages your daily life. From scheduling and meal planning to chore lists and todo management - all powered by advanced AI.
             </Typography>
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">

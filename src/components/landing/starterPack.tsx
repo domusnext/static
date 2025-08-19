@@ -8,43 +8,36 @@ export function ContentSectionOne() {
         <div className="container mx-auto grid items-center lg:grid-cols-2">
           <div className="row-start-2 mt-12 lg:row-auto lg:mt-0 lg:pr-12">
             <Typography variant="h2" color="blue-gray" className="mb-6">
-              Basic Starter Pack
+              The Future of Home Management
             </Typography>
             <Typography variant="lead" color="gray" className="mb-12">
-              I always felt like I could do anything. That&apos;s the main thing
-              people are controlled by! They&apos;re slowed down by{" "}
+              Domus revolutionizes how families manage their daily lives. Our{" "}
               <a
                 href="#"
                 className="underline underline-offset-4 transition-colors hover:text-blue-500"
               >
-                their perception of themselves
+                AI-powered smart screen
               </a>
-              . If you&apos;re taught you can&apos;t do anything, you won&apos;t
-              do anything. I was taught I could do everything.
+              {" "}seamlessly integrates into your home, learning your routines and preferences to provide personalized assistance.
               <br />
               <br />
-              The time is now for it to be okay to be great. For being a bright
-              color. For standing out. But the time is now to be okay to{" "}
+              From intelligent scheduling that prevents conflicts to meal planning that considers your dietary preferences and available ingredients, Domus transforms{" "}
               <a
                 href="#"
                 className="underline underline-offset-4 transition-colors hover:text-blue-500"
               >
-                be the greatest you
+                chaos into harmony
               </a>
-              . Would you believe in what you believe in, if you were the only one
-              who believed it?
+              . Experience the peace of mind that comes with having an AI assistant dedicated to your family&apos;s success.
               <br />
               <br />
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams.
+              Whether you&apos;re managing work schedules, coordinating family activities, or organizing household chores, Domus adapts to your unique lifestyle and helps you stay ahead of life&apos;s demands.
             </Typography>
             <div className="inline-flex flex-wrap gap-3">
               <Button variant="outlined" color="dark" size="lg">
-                get in touch
+                Contact Us
               </Button>
-              <Button color="dark" size="lg">our process</Button>
+              <Button color="dark" size="lg">See Features</Button>
             </div>
           </div>
           <img

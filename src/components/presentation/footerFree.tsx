@@ -6,57 +6,53 @@ const YEAR = new Date().getFullYear();
 const SOCIAL_MEDIA = [
   {
     icon: "fab fa-twitter",
-    link: "https://www.twitter.com/creativetim?ref=astrolaunch-ui",
+    link: "https://www.twitter.com/domus",
   },
   {
     icon: "fab fa-facebook-square",
-    link: "https://www.facebook.com/creativetim?ref=astrolaunch-ui",
+    link: "https://www.facebook.com/domus",
   },
   {
-    icon: "fab fa-dribbble",
-    link: "https://www.dribbble.com/creativetim?ref=astrolaunch-ui",
+    icon: "fab fa-linkedin",
+    link: "https://www.linkedin.com/company/domus",
   },
   {
-    icon: "fab fa-github",
-    link: "https://www.github.com/creativetimofficial?ref=astrolaunch-ui",
-  },
-  {
-    icon: "fab fa-discord",
-    link: "https://discord.com/invite/gxtg2rJa?ref=astrolaunch-ui",
+    icon: "fab fa-instagram",
+    link: "https://www.instagram.com/domus",
   },
 ];
 
 const COMPANY = [
   {
-    name: "About Us",
-    link: "https://www.creative-tim.com/presentation?ref=astrolaunch-ui",
+    name: "About Domus",
+    link: "#about",
   },
   {
-    name: "Blog",
-    link: "https://www.creative-tim.com/blog?ref=astrolaunch-ui",
+    name: "Our Technology",
+    link: "#technology",
   },
   {
-    name: "Github",
-    link: "https://github.com/creativetimofficial?ref=astrolaunch-ui",
+    name: "Careers",
+    link: "#careers",
   },
   {
-    name: "Free Products",
-    link: "https://www.creative-tim.com/templates/free?ref=astrolaunch-ui",
+    name: "News & Updates",
+    link: "#news",
   },
 ];
 
 const HELP = [
   {
-    name: "Knowledge Center",
-    link: "https://www.creative-tim.com/knowledge-center?ref=astrolaunch-ui",
+    name: "Support Center",
+    link: "#support",
   },
   {
     name: "Contact Us",
-    link: "https://www.creative-tim.com/contact-us?ref=astrolaunch-ui",
+    link: "#contact",
   },
   {
-    name: "Premium Support",
-    link: "https://www.creative-tim.com/support-terms?ref=astrolaunch-ui",
+    name: "Installation Guide",
+    link: "#installation",
   },
   {
     name: "Pricing",
@@ -66,35 +62,36 @@ const HELP = [
 
 const RESOURCES = [
   {
-    name: "Documentation",
-    link: "https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui?ref=astrolaunch-ui",
+    name: "User Manual",
+    link: "#manual",
   },
   {
-    name: "Custom Development",
-    link: "https://www.creative-tim.com/services/updivision?ref=astrolaunch-ui",
+    name: "API Documentation",
+    link: "#api",
   },
   {
-    name: "Discord",
-    link: "https://discord.gg/WCvQWMwT",
+    name: "Smart Home Integration",
+    link: "#integration",
   },
   {
-    name: "Tailwind Components",
-    link: "https://tailwindcomponents.com/?ref=astrolaunch-ui",
+    name: "Developer Resources",
+    link: "#developers",
   },
 ];
 
 const TECHS = [
   {
-    name: "React",
-    link: "#",
+    name: "AI Technology",
+    link: "#ai",
   },
   {
-    name: "Astro",
-    link: "#",
+    name: "Smart Home IoT",
+    link: "#iot",
   },
 ];
 
 export function Footer() {
+  return null;
   return (
     <footer className="relative z-50 bg-white px-8 pt-12 pb-6">
       <div className="container mx-auto">
@@ -104,10 +101,10 @@ export function Footer() {
               variant="h4"
               className="mb-2 !font-semibold !text-primary"
             >
-              AstroLaunch UI
+              Domus
             </Typography>
             <Typography className="text-md mt-0 mb-2 font-normal !text-gray-600">
-              Easy to use for Tailwind CSS and Material Design.
+              AI-powered smart home management for modern families.
             </Typography>
             <div className="mt-6">
               {SOCIAL_MEDIA.map(({ icon, link }, key) => (
@@ -205,17 +202,9 @@ export function Footer() {
             <div className="text-md mt-2 py-1 font-normal text-gray-600">
               Copyright &copy; {YEAR}{" "}
               <a href="/" className="text-inherit transition-all">
-                AstroLaunch UI
+                Domus
               </a>{" "}
-              by{" "}
-              <a
-                href="https://www.creative-tim.com?ref=astroLaunch-ui"
-                target="_blank"
-                rel="noreferrer"
-                className="text-inherit transition-all"
-              >
-                Creative Tim. Made with ❤️ for a better web.
-              </a>
+              - AI Smart Home Management Solutions
             </div>
           </div>
         </div>

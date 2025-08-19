@@ -180,16 +180,16 @@ function AccountListMenu() {
 // nav list menu
 const navListMenuItems = [
   {
-    title: "About Us",
-    href: "/astro-launch-ui/about"
+    title: "Features",
+    href: "/#features"
   },
   {
-    title: "Landing Page",
-    href: "/astro-launch-ui/landing"
+    title: "Pricing",
+    href: "/#pricing"
   },
   {
-    title: "404",
-    href: "/astro-launch-ui/404"
+    title: "Contact",
+    href: "/#contact"
   },
 ];
  
@@ -213,55 +213,18 @@ function NavListMenu() {
  
   return (
     <React.Fragment>
-      <Menu open={isMenuOpen} handler={setIsMenuOpen}>
-        <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal outline-none focus:outline-none">
-            <MenuItem
-              {...triggers}
-              className="hidden items-center gap-2 text-blue-gray-900 lg:flex lg:rounded-full"
-            >
-              <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
-              <ChevronDownIcon
-                strokeWidth={2}
-                className={`h-3 w-3 transition-transform ${
-                  isMenuOpen ? "rotate-180" : ""
-                }`}
-              />
-            </MenuItem>
-          </Typography>
-        </MenuHandler>
-        <MenuList
-          {...triggers}
-          className="hidden grid-cols-7 gap-3 overflow-visible lg:grid"
-        >
-          <ul className="col-span-12 flex w-full flex-col gap-1 outline-none focus:outline-none">
-            {renderItems}
-          </ul>
-        </MenuList>
-      </Menu>
-      <MenuItem className="flex items-center gap-2 text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[18px] w-[18px]" /> Pages{" "}
-      </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
     </React.Fragment>
   );
 }
  
 // nav list component
 const navListItems = [
-  {
-    label: "Docs",
-    icon: CodeBracketSquareIcon,
-  },
+
 ];
  
 function NavList() {
   return (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
-      <NavListMenu />
-      <AccountListMenu />
 
       {navListItems.map(({ label, icon }, key) => (
         <Typography
@@ -321,9 +284,9 @@ export default function ComplexNavbar() {
         <Typography
           as="a"
           href="/"
-          className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
+          className="mr-4 ml-2 cursor-pointer py-1.5 font-bold text-2xl"
         >
-          AstroLaunch UI
+          Domus
         </Typography>
         <div className="hidden lg:flex ml-auto">
           <NavList />
@@ -337,18 +300,8 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
-          <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
-        <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
-          <Button size="sm" color="dark" variant="text">
-            <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
-          </Button>
-        </a>
-        <a href="/astro-launch-ui/#examplePages">
-          <Button color="dark">Get started</Button>
+        <a href="#pricing">
+          <Button color="dark">Get Started</Button>
         </a>
       </div>
       <Collapse open={isNavOpen} className="overflow-scroll">

@@ -59,21 +59,21 @@ function BlogPostCard({
 const posts = [
   {
     img: "aboutus.jpg",
-    title: "About Us Page",
-    desc: "Designed to introduce the website's purpose and encourage the user to take an action.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/about",
+    title: "Smart Dashboard",
+    desc: "Central hub for managing all your family's daily activities and AI-powered insights.",
+    url: "#dashboard",
   },
   {
     img: "signin.jpg",
-    title: "Sign In Page",
-    desc: "It's designed to provide the user with all the necessary information for a secure login.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/login",
+    title: "Family Profiles",
+    desc: "Personalized settings and preferences for each family member's unique needs.",
+    url: "#profiles",
   },
   {
     img: "404.jpg",
-    title: "404 Error Page",
-    desc: "If you're looking for essential information to make a decision, our website has it all - just not on this page.",
-    url: "https://demos.creative-tim.com/astro-launch-ui/404",
+    title: "Mobile App",
+    desc: "Take Domus with you anywhere - access your smart home management on the go.",
+    url: "#mobile",
   },
 ];
 
@@ -84,13 +84,13 @@ export function BlogSectionThree() {
         <div className="container mx-auto px-8 py-10">
           <div className="mb-16 text-left">
             <Typography color="blue" className="mb-2 text-lg font-semibold">
-              Get inspired!
+              Explore Features!
             </Typography>
             <Typography variant="h2" color="blue-gray" className="mb-4">
-              Example Pages
+              Domus Interfaces
             </Typography>
             <Typography color="blue-gray">
-              You can start using our fully coded Ecommerce page examples if you want to get inspired or show something to your client.
+              Discover the intuitive interfaces that make Domus the perfect smart home management solution for modern families.
             </Typography>
           </div>
 

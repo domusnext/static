@@ -16,20 +16,19 @@ export function HeroSectionFour() {
             color="white"
             className="mb-4 !leading-tight lg:text-7xl z-20"
           >
-            iPhone
+            Smart Living Made Simple
           </Typography>
           <Typography
             variant="lead"
             color="white"
             className="mb-12 w-full opacity-80 md:w-10/12 lg:w-7/12 mx-auto px-28 z-10"
           >
-            We&apos;re constantly trying to express ourselves and actualize our
-            dreams. If you have the opportunity to play this game.
+            Experience the future of home management with Domus AI. From intelligent scheduling to personalized meal planning, we make your daily life effortless.
           </Typography>
           <div className="w-auto mx-auto">
             <div className="flex items-center">
               <Button size="lg" color="white" className="w-full px-4 z-10">
-                Show new arrivals
+                Learn More
               </Button>
             </div>
           </div>

@@ -12,21 +12,21 @@ export function AstroSection() {
         >
           <CardBody className="py-20 px-14 md:w-7/12">
             <Typography color="white" className="font-normal opacity-70">
-              Open Source
+              Innovation
             </Typography>
             <Typography
               variant="h2"
               color="white"
               className="mb-5 font-normal"
             >
-              Let's join forces for a better web!
+              Join the smart home revolution!
             </Typography>
             <Typography variant="lead" color="white">
-              AstroLaunch UI is an open source and powerful design system that lets you create Ecommerce websites that your users will love.
+              Domus represents the future of home management, combining cutting-edge AI with intuitive design to create experiences your family will love.
             </Typography>
-            <a href="https://github.com/creativetimofficial/astro-launch-ui">
+            <a href="#contact">
               <Button color="white" size="sm" variant="outlined" className="flex items-center mt-5">
-                Get Started
+                Learn More
               </Button>
             </a>
           </CardBody>

@@ -20,23 +20,20 @@ export function TestimonialSectionOne() {
               color="white"
               className="mb-10 font-medium leading-normal"
             >
-              &quot;We&apos;re not always in the position that we want to be
-              at. We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
-              actualize our dreams. &quot;
+              &quot;Domus has completely transformed how our family manages daily life. From never missing appointments to having perfectly planned meals every week, it&apos;s like having a personal assistant that never sleeps. &quot;
             </Typography>
             <Typography
               variant="lead"
               color="white"
               className="font-medium"
             >
-              Marcela Glock
+              Sarah Johnson
             </Typography>
             <Typography
               color="white"
               className="font-normal opacity-70"
             >
-              Chief Executive, Spotify
+              Working Mother of Three
             </Typography>
           </CardBody>
           <div className="relative grid h-96 place-items-center md:h-auto md:w-5/12 m-12">

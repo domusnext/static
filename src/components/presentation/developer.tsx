@@ -15,7 +15,7 @@ export function DevPresentation() {
               color="blue"
               className="flex items-center font-bold text-lg mb-5"
             >
-              Attention to hiqh-quality code
+              Advanced AI Technology
             </Typography>
 
             <Typography
@@ -23,10 +23,10 @@ export function DevPresentation() {
               color="blue-gray"
               className="mb-4 leading-tight"
             >
-              Develop consistenly using Astro architecture principles
+              Built with cutting-edge artificial intelligence
             </Typography>
             <Typography color="blue-gray" className="lg:pr-64">
-              Using AstroLaunch UI you get everything you need to start creating your fully functional and responsive Ecommerce website in days, not months.
+              Domus leverages advanced machine learning algorithms to understand your family's patterns, preferences, and routines, delivering personalized home management solutions.
             </Typography>
             
           </div>

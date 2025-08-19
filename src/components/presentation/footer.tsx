@@ -95,6 +95,7 @@ const TECHS = [
 ];
 
 export function Footer() {
+  return null;
   return (
     <footer className="relative z-50 bg-white px-8 pt-12 pb-6">
       <div className="container mx-auto">

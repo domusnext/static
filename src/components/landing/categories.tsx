@@ -41,20 +41,20 @@ function CategoriesCard({ img, category }: CategoriesCardPropsType) {
 
 const categories = [
   {
-    img: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
-    category: "Electronics",
+    img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    category: "AI Scheduling",
   },
   {
-    img: "https://images.unsplash.com/photo-1542845476-351174c0a0f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "New Arrivals",
+    img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    category: "Meal Planning",
   },
   {
-    img: "https://images.unsplash.com/photo-1554116154-e733de92fe4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "Accessories",
+    img: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    category: "Task Management",
   },
   {
-    img: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
-    category: "Sale",
+    img: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
+    category: "Family Chores",
   },
 ];
 
@@ -64,14 +64,13 @@ export function TeamSectionOne() {
       <div className="container mx-auto">
         <div className="mb-24 w-1/2">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Shop by category
+            Core Features
           </Typography>
           <Typography
             variant="lead"
             className="l:px-20 text-blue-gray-800"
           >
-            This is the paragraph where you can write more details about your
-            categories. Keep you user engaged by providing meaningful information.
+            Discover how Domus transforms your home management with AI-powered solutions designed to simplify your daily routine and enhance family life.
           </Typography>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

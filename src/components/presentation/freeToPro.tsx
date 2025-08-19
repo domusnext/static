@@ -24,24 +24,24 @@ function StatsCard({ count, title, desc }) {
 
 const stats = [
   {
-    count: "140+",
-    title: "Coded Elements",
-    desc: "From buttons, to inputs, navbars, alerts, tabels, cards or charts."
+    count: "100%",
+    title: "AI Powered",
+    desc: "Every feature is enhanced with artificial intelligence for smarter automation."
   },
   {
-    count: "10",
-    title: "Example Pages",
-    desc: "Save months of work when you use our pre-made pages."
+    count: "24/7",
+    title: "Always Active",
+    desc: "Continuous monitoring and management of your home's daily activities."
   },
   {
-    count: "30+",
-    title: "Design Blocks",
-    desc: "Mix the already made sections and unleash your creativity."
+    count: "5+",
+    title: "Core Features",
+    desc: "Scheduling, meal planning, tasks, chores, and family coordination."
   },
   {
-    count: "40+",
-    title: "Global Styles",
-    desc: "Colors, typography system, shadows, and blur effects are ready to be used."
+    count: "∞",
+    title: "Customizable",
+    desc: "Adapts to your family's unique patterns, preferences, and lifestyle."
   },
 ];
 
@@ -56,7 +56,7 @@ export function FigmaPresentation() {
               color="blue"
               className="font-bold text-lg mb-5"
             >
-              Fully Coded Components based on Astro
+              Complete Smart Home Platform
             </Typography>
 
             <Typography
@@ -64,10 +64,10 @@ export function FigmaPresentation() {
               color="blue-gray"
               className="mb-8 leading-tight"
             >
-              Astro LaunchUI Pro
+              Domus Smart Screen
             </Typography>
             <Typography color="blue-gray" className="mb-5 lg:w-[30rem]">
-              All the sections and pages made with these elements will be fully responsive and will look beautiful on all types of screens, including phones, tables, or desktops.
+              The Domus platform delivers a comprehensive smart home experience that works seamlessly across all your devices, from the main screen to mobile apps and voice integration.
             </Typography>
           </div>
           <div className="lg:flex relative">

@@ -25,8 +25,7 @@ export function HeroSectionFour() {
             color="white"
             className="mb-12 w-full opacity-80 md:w-10/12 lg:w-7/12 mx-auto px-28 z-10"
           >
-            We&apos;re constantly trying to express ourselves and actualize our
-            dreams. If you have the opportunity to play this game.
+            The page you&apos;re looking for doesn&apos;t exist. Let&apos;s get you back to managing your smart home with Domus.
           </Typography>
           <div className="w-auto mx-auto">
             <div className="flex items-center">

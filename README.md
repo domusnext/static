@@ -1,28 +1,27 @@
-# Welcome to [Astro Launch UI](https://www.creative-tim.com/astro/launch-ui/)
+# Welcome to Domus Smart Home Management
 
-![version](https://img.shields.io/badge/version-1.0.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/astro-launch-ui.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-launch-ui/issues?q=is%3Aissue+is%3Aclosed)
-
-![basics](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/astro/astrolaunch-ui-free.jpg)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 
 ## Description
 
-Introducing **Astro LaunchUI**, the ultimate starter template for your startup web project. Built on Astro's next-gen island architecture, Astro LaunchUI offers a sleek and modern design with a wide range of components and features to help you create a stunning online store.
+Introducing **Domus**, the revolutionary AI-powered smart home management platform. Built with cutting-edge technology, Domus offers an intuitive and intelligent solution to streamline your family's daily life through advanced automation and personalized assistance.
 
-**Main Features**
-Build your startup website quickly and efficiently with:
-- 70+ fully coded elements
-- 3 fully coded example pages
-- 30+ blocks
-- Responsive design
+**Core Features**
+Transform your home management with:
+- AI-powered scheduling and calendar management
+- Intelligent meal planning and recipe suggestions
+- Smart task and chore organization
+- Family coordination and communication tools
+- Responsive design across all devices
 
-**Example Pages**
-We created a set of pre-built pages to help you get inspired or show something to your clients. See them below:
-- [Landing Page](https://demos.creative-tim.com/astro-launch-ui/landing/): Designed to introduce the website's purpose and encourage the user to take an action.
-- [Product Page](https://demos.creative-tim.com/astro-launch-ui/product/): It's designed to give the user all the information they need to make a purchase decision
-- [Shopping Page](https://demos.creative-tim.com/astro-launch-ui/shopping-cart/): Includes a summary of the items in the cart and a form for billing and shipping information.
-- more+
+**Key Capabilities**
+Domus provides comprehensive smart home solutions:
+- **Smart Dashboard**: Central hub for managing all family activities with AI-powered insights
+- **Family Profiles**: Personalized settings and preferences for each family member's unique needs  
+- **Mobile Integration**: Access your smart home management anywhere with our mobile app
+- **Voice Control**: Hands-free interaction with your home management system
 
-Astro LaunchUI has everything you need to create the startup website of your dreams.
+Domus has everything you need to create the smart home experience of your dreams.
 
 
 ## 🚀 Project Structure
